@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/Vignesh/Documents/KY_website_2025/app/template.tsx"],"sourcesContent":["\"use client\";\n\nimport { motion } from \"framer-motion\";\nimport { usePathname } from \"next/navigation\";\nimport { useEffect } from \"react\";\n\nexport default function Template({ children }: { children: React.ReactNode }) {\n  const pathname = usePathname();\n\n  useEffect(() => {\n    window.scrollTo({ top: 0, behavior: \"smooth\" });\n  }, [pathname]);\n\n  return (\n    <motion.div\n      key={pathname}\n      initial={{ opacity: 0, y: 20 }}\n      animate={{ opacity: 1, y: 0 }}\n      exit={{ opacity: 0, y: -20 }}\n      transition={{ duration: 0.3, ease: \"easeInOut\" }}\n    >\n      {children}\n    </motion.div>\n  );\n}\n"],"names":[],"mappings":";;;;;AAEA;AACA;AACA;;;AAJA;;;;AAMe,SAAS,SAAS,EAAE,QAAQ,EAAiC;;IAC1E,MAAM,WAAW,IAAA,oJAAW;IAE5B,IAAA,0KAAS;8BAAC;YACR,OAAO,QAAQ,CAAC;gBAAE,KAAK;gBAAG,UAAU;YAAS;QAC/C;6BAAG;QAAC;KAAS;IAEb,qBACE,6LAAC,uMAAM,CAAC,GAAG;QAET,SAAS;YAAE,SAAS;YAAG,GAAG;QAAG;QAC7B,SAAS;YAAE,SAAS;YAAG,GAAG;QAAE;QAC5B,MAAM;YAAE,SAAS;YAAG,GAAG,CAAC;QAAG;QAC3B,YAAY;YAAE,UAAU;YAAK,MAAM;QAAY;kBAE9C;OANI;;;;;AASX;GAlBwB;;QACL,oJAAW;;;KADN"}}]
+}

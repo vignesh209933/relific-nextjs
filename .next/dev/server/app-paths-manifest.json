@@ -1,0 +1,15 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/aboutus/page": "app/aboutus/page.js",
+  "/allproducts/page": "app/allproducts/page.js",
+  "/blogs/page": "app/blogs/page.js",
+  "/demo-videos/page": "app/demo-videos/page.js",
+  "/drive_r/page": "app/drive_r/page.js",
+  "/farmer_platform/page": "app/farmer_platform/page.js",
+  "/health_platform/page": "app/health_platform/page.js",
+  "/other_solutions/page": "app/other_solutions/page.js",
+  "/page": "app/page.js",
+  "/progran/page": "app/progran/page.js",
+  "/start-trial/page": "app/start-trial/page.js",
+  "/surve_r/page": "app/surve_r/page.js"
+}
