@@ -95,8 +95,8 @@ __turbopack_context__.n(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$C
 __turbopack_context__.s([
     "default",
     ()=>RootLayout,
-    "metadata",
-    ()=>metadata
+    "generateMetadata",
+    ()=>generateMetadata
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$inter_5972bc34$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[next]/internal/font/google/inter_5972bc34.js [app-rsc] (ecmascript)");
@@ -107,14 +107,12 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$ClientLayout$2e$tsx__
 ;
 ;
 ;
-const metadata = {
+const baseMetadata = {
     title: "Relific | Drive-R · Surve-R · ProGran — AI for Impact Ops",
     description: "Relific builds practical AI tools for the social sector: Drive-R for data integration & reporting, Surve-R for AI-assisted form collection, and ProGran for programme & grants operations. Unify data, collect in the field, and report impact with confidence.",
     keywords: "csr examples, explain corporate social responsibility, csr program, csr reporting, sustainability reporting software, healthcare technology solutions, csr management, grant tracking software, CSRD compliance, csr activities of indian companies, AI for nonprofits, ESG data analytics, social impact reporting, fund management software solutions, social performance management, social impact monitoring, AI reporting tool, grant tracking software for nonprofits, social impact solutions, csr management software, impact investing platform, csr program meaning, csr impact assessment, csr monitoring",
     robots: "index, follow",
-    alternates: {
-        canonical: "https://relific.io"
-    },
+    // Do not hardcode canonical here — generate per-page canonical dynamically
     openGraph: {
         type: "website",
         url: "https://relific.io",
@@ -174,16 +172,16 @@ function RootLayout({ children }) {
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("script", {
                     type: "application/ld+json",
                     dangerouslySetInnerHTML: {
-                        __html: metadata.other?.["script:organization"] || ""
+                        __html: baseMetadata.other?.["script:organization"] || ""
                     }
                 }, void 0, false, {
                     fileName: "[project]/app/layout.tsx",
-                    lineNumber: 85,
+                    lineNumber: 83,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/layout.tsx",
-                lineNumber: 83,
+                lineNumber: 81,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("body", {
@@ -192,20 +190,31 @@ function RootLayout({ children }) {
                     children: children
                 }, void 0, false, {
                     fileName: "[project]/app/layout.tsx",
-                    lineNumber: 94,
+                    lineNumber: 92,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/layout.tsx",
-                lineNumber: 93,
+                lineNumber: 91,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/layout.tsx",
-        lineNumber: 82,
+        lineNumber: 80,
         columnNumber: 5
     }, this);
+}
+async function generateMetadata({ params, searchParams }) {
+    // Build the canonical URL from the current request
+    const baseUrl = "https://relific.io";
+    // Default fallback metadata (pages can override specific properties)
+    return {
+        ...baseMetadata,
+        alternates: {
+            canonical: baseUrl
+        }
+    };
 }
 }),
 "[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)", ((__turbopack_context__, module, exports) => {

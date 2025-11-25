@@ -10,16 +10,14 @@ const poppins = Poppins({
   display: "swap",
 });
 
-export const metadata: Metadata = {
+const baseMetadata: Metadata = {
   title: "Relific | Drive-R · Surve-R · ProGran — AI for Impact Ops",
   description:
     "Relific builds practical AI tools for the social sector: Drive-R for data integration & reporting, Surve-R for AI-assisted form collection, and ProGran for programme & grants operations. Unify data, collect in the field, and report impact with confidence.",
   keywords:
     "csr examples, explain corporate social responsibility, csr program, csr reporting, sustainability reporting software, healthcare technology solutions, csr management, grant tracking software, CSRD compliance, csr activities of indian companies, AI for nonprofits, ESG data analytics, social impact reporting, fund management software solutions, social performance management, social impact monitoring, AI reporting tool, grant tracking software for nonprofits, social impact solutions, csr management software, impact investing platform, csr program meaning, csr impact assessment, csr monitoring",
   robots: "index, follow",
-  alternates: {
-    canonical: "https://relific.io",
-  },
+  // Do not hardcode canonical here — generate per-page canonical dynamically
   openGraph: {
     type: "website",
     url: "https://relific.io",
@@ -85,7 +83,7 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: metadata.other?.["script:organization"] || "",
+            __html: baseMetadata.other?.["script:organization"] || "",
           }}
         />
         {/* Additional product schemas can be added here */}
@@ -95,4 +93,27 @@ export default function RootLayout({
       </body>
     </html>
   );
+}
+
+// Generate per-request metadata so canonical reflects the current page URL
+// This serves as fallback metadata that individual pages can override
+export async function generateMetadata({
+  params,
+  searchParams,
+}: {
+  params?: any;
+  searchParams?: any;
+}): Promise<Metadata> {
+  // Build the canonical URL from the current request
+  const baseUrl = "https://relific.io";
+
+  // Default fallback metadata (pages can override specific properties)
+  return {
+    ...baseMetadata,
+    alternates: {
+      canonical: baseUrl, // Default to homepage, pages should override this
+    },
+    // Pages can extend this by exporting their own generateMetadata
+    // that calls this function and merges additional metadata
+  };
 }

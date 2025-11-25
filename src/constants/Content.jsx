@@ -114,7 +114,6 @@ export const resourcesLinks = [
   { drop: "Demo Videos", path: "/demo-videos" },
   { drop: "Other Solutions", path: "/other_solutions" },
   { drop: "Blogs", path: "/blogs" },
-  { drop: "Case Studies", path: "/case_studies" },
 ];
 
 export const otherSolutionsLinks = [

@@ -51,7 +51,7 @@ export default function Blogs() {
       documentId: post.documentId,
       category: post.category,
       tags: post.tags,
-      author: post.author?.name || "Krisiyukta Team",
+      author: post.author?.name || "Relific Team",
     };
   };
 

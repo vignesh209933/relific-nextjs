@@ -3,11 +3,6 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import Colors from "../../constants/Color";
 
-// Assets (use what you have; SurveRVideo is shown as default)
-// import SurveRVideo from "../../assets/SurveR/Surve_r_AI_nobg_02.mp4";
-// import DriveRVideo from "../../assets/DriveR/demo.mp4";
-// import ProGranVideo from "../../assets/ProGran/demo.mp4";
-
 const PRODUCTS = {
   surver: {
     name: "Surve-R",

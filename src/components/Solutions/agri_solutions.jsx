@@ -4,11 +4,6 @@ import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
 import Colors from "../../constants/Color";
 
-import agriHero from "../../assets/agriculture_images/hero.svg";
-import farmerPlatform from "../../assets/agriculture_images/farmer_platform.svg";
-import plantManagement from "../../assets/agriculture_images/plant_management.svg";
-import seedSolutions from "../../assets/agriculture_images/seed_solutions.svg";
-
 const AgriSolutions = () => {
   const [isClicked, setIsClicked] = useState(false);
   const router = useRouter();
@@ -43,7 +38,7 @@ const AgriSolutions = () => {
         </div>
         <div className="w-full max-w-lg flex justify-center items-center">
           <img
-            src={agriHero}
+            src="/assets/agriculture_images/hero.svg"
             alt="Agriculture Solutions"
             className="w-4/5 rounded-lg"
           />
@@ -63,7 +58,7 @@ const AgriSolutions = () => {
         <div className="p-6 bg-white rounded-lg shadow-md flex flex-col h-[450px]">
           <div className="w-full h-[200px] overflow-hidden mb-4">
             <img
-              src={farmerPlatform}
+              src="/assets/agriculture_images/farmer_platform.svg"
               alt="Farmer Platform"
               className="w-full h-full object-cover"
             />
@@ -88,7 +83,7 @@ const AgriSolutions = () => {
         <div className="p-6 bg-white rounded-lg shadow-md flex flex-col h-[450px]">
           <div className="w-full h-[200px] overflow-hidden mb-4">
             <img
-              src={plantManagement}
+              src="/assets/agriculture_images/plant_management.svg"
               alt="Plant Management"
               className="w-full h-full object-cover"
             />
@@ -112,7 +107,7 @@ const AgriSolutions = () => {
         <div className="p-6 bg-white rounded-lg shadow-md flex flex-col h-[450px]">
           <div className="w-full h-[200px] overflow-hidden mb-4">
             <img
-              src={seedSolutions}
+              src="/assets/agriculture_images/seed_solutions.svg"
               alt="Seed Solutions"
               className="w-full h-full object-cover"
             />

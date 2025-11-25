@@ -729,19 +729,126 @@ __turbopack_context__.s([
     ()=>__TURBOPACK__default__export__
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$script$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/script.js [app-ssr] (ecmascript)");
 // Import existing component
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Products$2f$drive$2d$r$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/Products/drive-r.jsx [app-ssr] (ecmascript)");
 "use client";
 ;
 ;
+;
+;
+const softwareApplicationSchema = {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    name: "Drive-R: The Impact Intelligence Engine",
+    url: "https://www.relific.io/drive_r",
+    applicationCategory: "BusinessApplication",
+    operatingSystem: "Web",
+    description: "Drive-R helps you manage and activate impact data—from grassroots collection to SDG-aligned reports, across health, education, climate, and CSR programmes.",
+    creator: {
+        "@type": "Organization",
+        name: "Relific",
+        url: "https://relific.io"
+    }
+};
+const productSchema = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: "Drive-R: The Impact Intelligence Engine",
+    description: "Drive-R is an AI-powered SaaS platform designed to enable social impact organizations to collect, analyze, and report data seamlessly.",
+    brand: {
+        "@type": "Brand",
+        name: "Relific"
+    },
+    category: "Social Impact Software",
+    image: "https://www.relific.io/logo.png",
+    url: "https://www.relific.io/drive_r",
+    offers: {
+        "@type": "Offer",
+        url: "https://www.relific.io/drive_r"
+    }
+};
 const DriveRPage = ()=>{
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        // Update document title and meta tags
+        document.title = "Drive-R: AI-Powered Impact Intelligence & Analytics Platform";
+        // Update or create meta tags
+        const updateMeta = (name, content, property)=>{
+            const selector = property ? `meta[property="${name}"]` : `meta[name="${name}"]`;
+            let meta = document.querySelector(selector);
+            if (!meta) {
+                meta = document.createElement('meta');
+                if (property) {
+                    meta.setAttribute('property', name);
+                } else {
+                    meta.setAttribute('name', name);
+                }
+                document.head.appendChild(meta);
+            }
+            meta.setAttribute('content', content);
+        };
+        // Update or create canonical link
+        const updateCanonical = (href)=>{
+            let canonical = document.querySelector('link[rel="canonical"]');
+            if (!canonical) {
+                canonical = document.createElement('link');
+                canonical.setAttribute('rel', 'canonical');
+                document.head.appendChild(canonical);
+            }
+            canonical.setAttribute('href', href);
+        };
+        // Set Drive-R specific metadata
+        updateMeta('description', 'Drive-R helps you manage and activate impact data—from grassroots collection to SDG-aligned reports, across health, education, climate, and CSR programmes.');
+        updateMeta('robots', 'index, follow');
+        updateCanonical('https://www.relific.io/drive_r');
+        // Open Graph
+        updateMeta('og:title', 'Drive-R: AI-Powered Impact Intelligence & Analytics Platform', true);
+        updateMeta('og:description', 'Drive-R helps you manage and activate impact data—from grassroots collection to SDG-aligned reports, across health, education, climate, and CSR programmes.', true);
+        updateMeta('og:url', 'https://www.relific.io/drive_r', true);
+        updateMeta('og:type', 'website', true);
+        updateMeta('og:image', 'https://relific.io/images/og-image.jpg', true);
+        updateMeta('og:image:alt', 'Drive-R Impact Intelligence Platform', true);
+        updateMeta('og:site_name', 'Relific', true);
+        // Twitter
+        updateMeta('twitter:card', 'summary_large_image');
+        updateMeta('twitter:title', 'Drive-R: AI-Powered Impact Intelligence & Analytics Platform');
+        updateMeta('twitter:description', 'Drive-R helps you manage and activate impact data—from grassroots collection to SDG-aligned reports, across health, education, climate, and CSR programmes.');
+        updateMeta('twitter:image', 'https://relific.io/images/og-image.jpg');
+    }, []);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Products$2f$drive$2d$r$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
-            fileName: "[project]/app/drive_r/page.tsx",
-            lineNumber: 11,
-            columnNumber: 7
-        }, ("TURBOPACK compile-time value", void 0))
-    }, void 0, false);
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$script$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                id: "software-application-schema",
+                type: "application/ld+json",
+                strategy: "beforeInteractive",
+                dangerouslySetInnerHTML: {
+                    __html: JSON.stringify(softwareApplicationSchema)
+                }
+            }, void 0, false, {
+                fileName: "[project]/app/drive_r/page.tsx",
+                lineNumber: 98,
+                columnNumber: 7
+            }, ("TURBOPACK compile-time value", void 0)),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$script$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                id: "product-schema",
+                type: "application/ld+json",
+                strategy: "beforeInteractive",
+                dangerouslySetInnerHTML: {
+                    __html: JSON.stringify(productSchema)
+                }
+            }, void 0, false, {
+                fileName: "[project]/app/drive_r/page.tsx",
+                lineNumber: 106,
+                columnNumber: 7
+            }, ("TURBOPACK compile-time value", void 0)),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Products$2f$drive$2d$r$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                fileName: "[project]/app/drive_r/page.tsx",
+                lineNumber: 114,
+                columnNumber: 7
+            }, ("TURBOPACK compile-time value", void 0))
+        ]
+    }, void 0, true);
 };
 const __TURBOPACK__default__export__ = DriveRPage;
 }),

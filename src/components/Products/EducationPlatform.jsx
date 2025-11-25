@@ -4,7 +4,8 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
 import Colors from "../../constants/Color";
-import eduHero from "../../assets/leafledger_images/hero.svg"; // Placeholder image
+import Image from "next/image";
+const eduHero = "/assets/edu_images/edu_performance.svg";
 import { eduFeatures } from "../../constants/Content"; // Updated to use eduFeatures
 import {
   Headphones,
@@ -41,8 +42,8 @@ const EducationPlatform = () => {
             Home
           </Link>{" "}
           &gt;{" "}
-          <Link href="/allproducts" className="hover:underline">
-            Products
+          <Link href="/other_solutions" className="hover:underline">
+            Other Solutions
           </Link>{" "}
           &gt; <span>Education Platform</span>
         </div>
@@ -108,11 +109,15 @@ const EducationPlatform = () => {
                   rel="noopener noreferrer"
                   className="block"
                 >
-                  <img
-                    src={eduHero} // Placeholder image
-                    alt="Education Platform"
-                    className="w-full rounded-lg hover:opacity-90 transition-opacity"
-                  />
+                  <div className="relative w-full h-56 lg:h-40">
+                    <Image
+                      src={eduHero}
+                      alt="Education Platform"
+                      fill
+                      style={{ objectFit: "contain" }}
+                      className="rounded-lg"
+                    />
+                  </div>
                   <p
                     className="text-center mt-2 text-sm"
                     style={{ color: Colors.Primary_font }}
@@ -149,11 +154,13 @@ const EducationPlatform = () => {
                   className="p-4 rounded-lg border transition-all hover:shadow-md"
                   style={{ borderColor: Colors.Form_outline }}
                 >
-                  <div className="w-full h-56 flex justify-center items-center mb-4">
-                    <img
+                  <div className="w-full h-56 flex justify-center items-center mb-4 relative">
+                    <Image
                       src={feature.image}
                       alt={feature.title}
-                      className="w-full h-full object-contain rounded-lg"
+                      fill
+                      style={{ objectFit: "contain" }}
+                      className="rounded-lg"
                     />
                   </div>
                   <p

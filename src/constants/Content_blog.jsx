@@ -1,5 +1,4 @@
 // Content_blog.jsx
-import agri from "../assets/blog_article.svg";
 
 export const metrics = [
   { value: "10 K", label: "Farmers onboard" },
@@ -22,7 +21,7 @@ export const sections = [
 ];
 
 export const testimonial = {
-  image: agri,
+  image: "/assets/blog_article.svg",
   quote:
     "Fantastic platform for farmers! Easy to use, great resources, and excellent customer support. My farm's productivity has improved thanks to their expert advice.",
   author: "Mohan Sawder",
@@ -32,7 +31,7 @@ export const testimonial = {
 export const heroContent = {
   title: "Increased yields up to 50%",
   subtitle: "and optimised input cost by 10%",
-  backgroundImage: agri,
+  backgroundImage: "/assets/blog_article.svg",
 };
 
 export const videoSection = {

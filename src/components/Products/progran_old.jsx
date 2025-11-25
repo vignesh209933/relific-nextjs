@@ -20,16 +20,6 @@ import {
   ChevronRight,
 } from "lucide-react";
 
-// Import ProGran assets
-import progran_01 from "../../assets/progran/ProGran_01.png";
-import progran_02 from "../../assets/progran/ProGran_02.png";
-import progran_03 from "../../assets/progran/ProGran_03.png";
-import progran_04 from "../../assets/progran/ProGran_04.png";
-import progran_05 from "../../assets/progran/ProGran_05.png";
-import progran_010 from "../../assets/progran/ProGran_010.png";
-import progran_011 from "../../assets/progran/ProGran_011.png";
-import progran_012 from "../../assets/progran/ProGran_012.png";
-
 const ProGran = () => {
   const [isLightboxOpen, setIsLightboxOpen] = useState(false);
   const [currentImage, setCurrentImage] = useState(null);
@@ -39,38 +29,38 @@ const ProGran = () => {
   // Screenshot data with theme variants
   const screenshots = [
     {
-      light: progran_02,
-      dark: progran_03,
+      light: "/assets/progran/ProGran_02.png",
+      dark: "/assets/progran/ProGran_03.png",
       caption: "Projects dashboard — portfolio KPIs and status chips",
       filename: "ProGran_02.png",
     },
     {
-      light: progran_04,
-      dark: progran_05,
+      light: "/assets/progran/ProGran_04.png",
+      dark: "/assets/progran/ProGran_05.png",
       caption: "Analytics — location summary: planned vs actual",
       filename: "ProGran_04.png",
     },
     {
-      light: progran_01,
-      dark: progran_01,
+      light: "/assets/progran/ProGran_01.png",
+      dark: "/assets/progran/ProGran_01.png",
       caption: "Grant Management login (donor code + email)",
       filename: "ProGran_01.png",
     },
     {
-      light: progran_010,
-      dark: progran_010,
+      light: "/assets/progran/ProGran_010.png",
+      dark: "/assets/progran/ProGran_010.png",
       caption: "Impact metrics table — baseline/target, units, filters",
       filename: "ProGran_010.png",
     },
     {
-      light: progran_011,
-      dark: progran_011,
+      light: "/assets/progran/ProGran_011.png",
+      dark: "/assets/progran/ProGran_011.png",
       caption: "Operational report – filters — region, project, date range",
       filename: "ProGran_011.png",
     },
     {
-      light: progran_012,
-      dark: progran_012,
+      light: "/assets/progran/ProGran_012.png",
+      dark: "/assets/progran/ProGran_012.png",
       caption: "Operational report – results — beneficiary-level records",
       filename: "ProGran_012.png",
     },

@@ -1,3 +1,0 @@
-module.exports=[51107,a=>{"use strict";var b=a.i(87924),c=a.i(5086);function d(){return(0,b.jsx)("div",{className:"min-h-screen",style:{backgroundColor:c.default.Bg_color_1},children:(0,b.jsxs)("div",{className:"container mx-auto px-4 py-16",children:[(0,b.jsx)("h1",{className:"text-4xl font-bold text-center mb-8",style:{color:c.default.Primary_font},children:"Solutions"}),(0,b.jsx)("p",{className:"text-center text-lg",style:{color:c.default.Font_3},children:"This page is under construction. Please check back soon!"})]})})}a.s(["default",()=>d])}];
-
-//# sourceMappingURL=app_solutions_page_tsx_095593b1._.js.map

@@ -3,6 +3,7 @@ import React, { useState, useRef } from "react"; // Add useRef
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
+import Image from "next/image";
 import Colors from "../../constants/Color";
 import { farmerPlatformFeatures } from "../../constants/Content";
 import {
@@ -65,8 +66,8 @@ const FarmerPlatform = () => {
             Home
           </Link>{" "}
           &gt;{" "}
-          <Link href="/allproducts" className="hover:underline">
-            Products
+          <Link href="/other_solutions" className="hover:underline">
+            Other Solutions
           </Link>{" "}
           &gt; <span>Farmer Platform</span>
         </div>
@@ -148,9 +149,11 @@ const FarmerPlatform = () => {
                   className="block cursor-pointer"
                   onClick={scrollToPrototypes}
                 >
-                  <img
+                  <Image
                     src="/assets/farmer_platform_images/hero.svg"
                     alt="Farmer Platform"
+                    width={724}
+                    height={475}
                     className="w-full rounded-lg hover:opacity-90 transition-opacity"
                   />
                   <p
@@ -190,10 +193,13 @@ const FarmerPlatform = () => {
                   style={{ borderColor: Colors.Form_outline }}
                 >
                   <div className="w-full h-56 flex justify-center items-center mb-4">
-                    <img
+                    <Image
                       src={feature.image}
                       alt={feature.title}
-                      className="w-full h-full object-contain rounded-lg"
+                      width={544}
+                      height={388}
+                      className="w-full h-full rounded-lg"
+                      style={{ objectFit: "contain" }}
                     />
                   </div>
                   <p
@@ -237,21 +243,21 @@ const FarmerPlatform = () => {
                   description:
                     "Comprehensive web interface for administrators and managers with full analytics and reporting",
                   link: prototypeLinks.business_web,
-                  image: "/src/assets/prototypes/web_dashboard.svg",
+                  image: "/assets/prototypes/web_dashboard.svg",
                 },
                 {
                   title: "Business Mobile App",
                   description:
                     "Powerful mobile solution for field officers with real-time data synchronization",
                   link: prototypeLinks.business_mobile,
-                  image: "/src/assets/prototypes/business_mobile.svg",
+                  image: "/assets/prototypes/business_mobile.svg",
                 },
                 {
                   title: "Farmer Mobile App",
                   description:
                     "Intuitive mobile interface designed for farmers with offline capabilities",
                   link: prototypeLinks.farmer_mobile,
-                  image: "/src/assets/prototypes/farmer_mobile.svg",
+                  image: "/assets/prototypes/farmer_mobile.svg",
                 },
               ].map((prototype, index) => (
                 <div
@@ -266,10 +272,13 @@ const FarmerPlatform = () => {
                   >
                     <div className="relative">
                       <div className="aspect-w-16 aspect-h-9">
-                        <img
+                        <Image
                           src={prototype.image}
                           alt={prototype.title}
-                          className="w-full h-56 object-cover transition-all duration-300 hover:opacity-90"
+                          width={1280}
+                          height={720}
+                          className="w-full h-56 md:h-72 lg:h-80 transition-all duration-300 hover:opacity-90"
+                          style={{ objectFit: "contain" }}
                         />
                       </div>
                       <div

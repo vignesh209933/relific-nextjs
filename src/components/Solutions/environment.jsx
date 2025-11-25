@@ -4,10 +4,6 @@ import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
 import Colors from "../../constants/Color";
 
-import environmentHero from "../../assets/environment_images/hero.svg";
-import afforestation from "../../assets/environment_images/image14.svg";
-import carbonManagement from "../../assets/environment_images/image15.svg";
-
 const KrisiyuktaSolutions = () => {
   const [isClicked, setIsClicked] = useState(false);
   const router = useRouter();
@@ -41,7 +37,7 @@ const KrisiyuktaSolutions = () => {
         </div>
         <div className="w-full max-w-lg flex justify-center items-center">
           <img
-            src={environmentHero}
+            src="/assets/environment_images/hero.svg"
             alt="Sustainable Agriculture"
             className="w-4/5 rounded-lg"
           />
@@ -59,7 +55,7 @@ const KrisiyuktaSolutions = () => {
         {/* Afforestation Management */}
         <div className="p-6 bg-white rounded-lg shadow-md text-center">
           <img
-            src={afforestation}
+            src="/assets/environment_images/image14.svg"
             alt="Afforestation"
             className="w-full mb-4 rounded-lg"
           />
@@ -77,7 +73,7 @@ const KrisiyuktaSolutions = () => {
         {/* Carbon Management */}
         <div className="p-6 bg-white rounded-lg shadow-md text-center">
           <img
-            src={carbonManagement}
+            src="/assets/environment_images/image15.svg"
             alt="Carbon Management"
             className="w-full mb-4 rounded-lg"
           />

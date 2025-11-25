@@ -1,3 +1,4 @@
+"use client";
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -5,7 +6,6 @@ import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import Colors from "../../constants/Color";
-import drive_r_hero from "../../assets/OurProducts/Drive_r.svg";
 import { DriveRFeatures } from "../../constants/Content";
 
 const DriveR = () => {
@@ -152,7 +152,7 @@ const DriveR = () => {
                 className="block"
               >
                 <Image
-                  src={drive_r_hero}
+                  src="/assets/OurProducts/Drive_r.svg"
                   alt="Drive-R"
                   width={600}
                   height={400}

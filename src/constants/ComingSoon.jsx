@@ -1,12 +1,12 @@
 import React from "react";
 import Colors from "./Color";
-import { useNavigate } from "react-router-dom";
+import { useRouter } from "next/navigation";
 
 const ComingSoon = () => {
-  const navigate = useNavigate();
+  const router = useRouter();
 
   const handleTellMoreClick = () => {
-    navigate("/tellmore");
+    router.push("/tellmore");
   };
 
   return (

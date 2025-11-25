@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
 import Colors from "../../constants/Color";
-import leafHero from "../../assets/OurProducts/grant_dash.svg"; // Placeholder image
+import Image from "next/image";
 import { grantFeatures } from "../../constants/Content"; // Update import
 import {
   Headphones,
@@ -41,8 +41,8 @@ const GrantManagement = () => {
             Home
           </Link>{" "}
           &gt;{" "}
-          <Link href="/allproducts" className="hover:underline">
-            Products
+          <Link href="/other_solutions" className="hover:underline">
+            Other Solutions
           </Link>{" "}
           &gt; <span>Impact Intelligence</span>
         </div>
@@ -122,11 +122,15 @@ const GrantManagement = () => {
                   rel="noopener noreferrer"
                   className="block"
                 >
-                  <img
-                    src={leafHero}
-                    alt="Grant Management"
-                    className="w-full rounded-lg hover:opacity-90 transition-opacity"
-                  />
+                  <div className="relative w-full h-56 md:h-72 lg:h-80">
+                    <Image
+                      src="/assets/OurProducts/grant_dash.svg"
+                      alt="Grant Management"
+                      fill
+                      style={{ objectFit: "contain" }}
+                      className="rounded-lg hover:opacity-90 transition-opacity"
+                    />
+                  </div>
                   <p
                     className="text-center mt-2 text-sm"
                     style={{ color: Colors.Primary_font }}
@@ -163,11 +167,13 @@ const GrantManagement = () => {
                   className="p-4 rounded-lg border transition-all hover:shadow-md"
                   style={{ borderColor: Colors.Form_outline }}
                 >
-                  <div className="w-full h-56 flex justify-center items-center mb-4">
-                    <img
+                  <div className="w-full h-56 mb-4 relative">
+                    <Image
                       src={feature.image}
                       alt={feature.title}
-                      className="w-full h-full object-contain rounded-lg"
+                      fill
+                      style={{ objectFit: "contain" }}
+                      className="rounded-lg"
                     />
                   </div>
                   <p

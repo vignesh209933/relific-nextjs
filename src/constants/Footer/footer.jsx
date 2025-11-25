@@ -22,14 +22,13 @@ const Footer = () => {
   const resourcesLinks = [
     { name: "Demo Videos", href: "/demo-videos" },
     { name: "Blogs", href: "/blogs" },
-    { name: "Case Studies", href: "/case-studies" },
     { name: "Other Solutions", href: "/other_solutions" },
   ];
 
   const companyLinks = [
     { name: "About Us", href: "/aboutus" },
     { name: "Who We Serve", href: "/whoweserve" },
-    { name: "Contact Us", href: "/contact_simple" },
+    { name: "Contact Us", href: "/contact" },
     { name: "Privacy Policy", href: "/privacy" },
   ];
 

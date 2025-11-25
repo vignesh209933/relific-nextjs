@@ -2,34 +2,13 @@
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { usePathname } from "next/navigation";
 import Navbar from "../src/constants/NavBar/navbar";
 import Footer from "../src/constants/Footer/footer";
 import Colors from "../src/constants/Color";
+import LoadingComponent from "./components/Loading";
 
-const LoadingScreen = () => (
-  <motion.div
-    initial={{ opacity: 1 }}
-    exit={{ opacity: 0 }}
-    className="fixed inset-0 z-50 flex items-center justify-center bg-white"
-  >
-    <motion.div
-      animate={{
-        scale: [1, 1.2, 1],
-        rotate: [0, 180, 360],
-      }}
-      transition={{
-        duration: 1.5,
-        repeat: Infinity,
-        ease: "easeInOut",
-      }}
-      className="w-16 h-16 border-4 rounded-full"
-      style={{
-        borderColor: `${Colors.Primary_font} transparent`,
-        borderRadius: "50%",
-      }}
-    />
-  </motion.div>
-);
+const LoadingScreen = () => <LoadingComponent />;
 
 export default function ClientLayout({
   children,
@@ -37,23 +16,50 @@ export default function ClientLayout({
   children: React.ReactNode;
 }) {
   const [loading, setLoading] = useState(true);
+  const [routeLoading, setRouteLoading] = useState(false);
+  const pathname = usePathname();
 
+  // Initial app load
   useEffect(() => {
     setTimeout(() => setLoading(false), 1500);
   }, []);
+
+  // Route change loading - only show if not initial load
+  useEffect(() => {
+    if (!loading) {
+      // Only show route loading after initial load is complete
+      setRouteLoading(true);
+      const timer = setTimeout(() => {
+        setRouteLoading(false);
+      }, 600); // Shorter delay for route changes
+
+      return () => clearTimeout(timer);
+    }
+  }, [pathname, loading]);
 
   return (
     <AnimatePresence mode="wait">
       {loading ? (
         <LoadingScreen />
+      ) : routeLoading ? (
+        <LoadingScreen />
       ) : (
         <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.5 }}
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: -20 }}
+          transition={{ duration: 0.3, ease: "easeInOut" }}
         >
           <Navbar />
-          {children}
+          <motion.div
+            key={pathname}
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -10 }}
+            transition={{ duration: 0.2 }}
+          >
+            {children}
+          </motion.div>
           <Footer />
         </motion.div>
       )}

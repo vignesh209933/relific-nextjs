@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 // Import existing components
 import OrganisationsWeServe from "../../src/components/Who we serve/Orgsweserve";
 import ClientsCarousel from "../../src/components/Home/Clients";
-import ImpactStories from "../../src/components/Who we serve/ImpactStories";
+import BlogPosts from "../../src/components/Who we serve/BlogPosts";
 
 const WhoWeServePage = () => {
   return (
@@ -18,7 +18,7 @@ const WhoWeServePage = () => {
     >
       <OrganisationsWeServe />
       <ClientsCarousel />
-      <ImpactStories />
+      <BlogPosts />
     </motion.div>
   );
 };

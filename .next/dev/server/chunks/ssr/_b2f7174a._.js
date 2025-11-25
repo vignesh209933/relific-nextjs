@@ -11,6 +11,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/navigation.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$constants$2f$Color$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/constants/Color.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$constants$2f$Content$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/constants/Content.jsx [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$headphones$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Headphones$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/headphones.js [app-ssr] (ecmascript) <export default as Headphones>");
@@ -20,6 +21,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$cloud$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Cloud$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/cloud.js [app-ssr] (ecmascript) <export default as Cloud>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$server$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Server$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/server.js [app-ssr] (ecmascript) <export default as Server>");
 "use client";
+;
 ;
 ;
 ;
@@ -78,19 +80,19 @@ const FarmerPlatform = ()=>{
                             children: "Home"
                         }, void 0, false, {
                             fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                            lineNumber: 64,
+                            lineNumber: 65,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         " ",
                         ">",
                         " ",
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                            href: "/allproducts",
+                            href: "/other_solutions",
                             className: "hover:underline",
-                            children: "Products"
+                            children: "Other Solutions"
                         }, void 0, false, {
                             fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                            lineNumber: 68,
+                            lineNumber: 69,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         " ",
@@ -99,13 +101,13 @@ const FarmerPlatform = ()=>{
                             children: "Farmer Platform"
                         }, void 0, false, {
                             fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                            lineNumber: 71,
+                            lineNumber: 72,
                             columnNumber: 16
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                    lineNumber: 63,
+                    lineNumber: 64,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -129,7 +131,7 @@ const FarmerPlatform = ()=>{
                                             children: "Empowering Farmers Through Technology"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                            lineNumber: 82,
+                                            lineNumber: 83,
                                             columnNumber: 17
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -140,7 +142,7 @@ const FarmerPlatform = ()=>{
                                             children: "We empower social sector organizations, particularly those working with small and marginal farmers, by providing a robust farmer management platform designed for agricultural extension and training. Our solution offers real-time insights, structured advisory support, and tools for effective field engagement. Through a web dashboard and mobile apps, implementation teams can seamlessly track farmer activities, monitor training programs, and enhance the efficiency of agricultural interventions."
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                            lineNumber: 88,
+                                            lineNumber: 89,
                                             columnNumber: 17
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -159,7 +161,7 @@ const FarmerPlatform = ()=>{
                                                     children: "Request Demo"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                    lineNumber: 100,
+                                                    lineNumber: 101,
                                                     columnNumber: 19
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].a, {
@@ -200,19 +202,19 @@ const FarmerPlatform = ()=>{
                                                     children: "View all Prototypes"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                    lineNumber: 118,
+                                                    lineNumber: 119,
                                                     columnNumber: 19
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                            lineNumber: 99,
+                                            lineNumber: 100,
                                             columnNumber: 17
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                    lineNumber: 81,
+                                    lineNumber: 82,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -221,13 +223,15 @@ const FarmerPlatform = ()=>{
                                         className: "block cursor-pointer",
                                         onClick: scrollToPrototypes,
                                         children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                 src: "/assets/farmer_platform_images/hero.svg",
                                                 alt: "Farmer Platform",
+                                                width: 724,
+                                                height: 475,
                                                 className: "w-full rounded-lg hover:opacity-90 transition-opacity"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                lineNumber: 151,
+                                                lineNumber: 152,
                                                 columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -238,34 +242,34 @@ const FarmerPlatform = ()=>{
                                                 children: "Click here to view prototype"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                lineNumber: 156,
+                                                lineNumber: 159,
                                                 columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                        lineNumber: 147,
+                                        lineNumber: 148,
                                         columnNumber: 17
                                     }, ("TURBOPACK compile-time value", void 0))
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                    lineNumber: 146,
+                                    lineNumber: 147,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                            lineNumber: 80,
+                            lineNumber: 81,
                             columnNumber: 13
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                        lineNumber: 79,
+                        lineNumber: 80,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0))
                 }, void 0, false, {
                     fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                    lineNumber: 75,
+                    lineNumber: 76,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -285,12 +289,12 @@ const FarmerPlatform = ()=>{
                                 children: "What Farmer Platform Offers"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                lineNumber: 180,
+                                lineNumber: 183,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                            lineNumber: 173,
+                            lineNumber: 176,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -305,18 +309,23 @@ const FarmerPlatform = ()=>{
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "w-full h-56 flex justify-center items-center mb-4",
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                     src: feature.image,
                                                     alt: feature.title,
-                                                    className: "w-full h-full object-contain rounded-lg"
+                                                    width: 544,
+                                                    height: 388,
+                                                    className: "w-full h-full rounded-lg",
+                                                    style: {
+                                                        objectFit: "contain"
+                                                    }
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                    lineNumber: 193,
+                                                    lineNumber: 196,
                                                     columnNumber: 21
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                lineNumber: 192,
+                                                lineNumber: 195,
                                                 columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -327,29 +336,29 @@ const FarmerPlatform = ()=>{
                                                 children: feature.title
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                lineNumber: 199,
+                                                lineNumber: 205,
                                                 columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, index, true, {
                                         fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                        lineNumber: 187,
+                                        lineNumber: 190,
                                         columnNumber: 17
                                     }, ("TURBOPACK compile-time value", void 0)))
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                lineNumber: 185,
+                                lineNumber: 188,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                            lineNumber: 184,
+                            lineNumber: 187,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                    lineNumber: 169,
+                    lineNumber: 172,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -370,12 +379,12 @@ const FarmerPlatform = ()=>{
                                 children: "Interactive Prototypes"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                lineNumber: 224,
+                                lineNumber: 230,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                            lineNumber: 217,
+                            lineNumber: 223,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -391,12 +400,12 @@ const FarmerPlatform = ()=>{
                                         children: "Experience our platform through these interactive prototypes"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                        lineNumber: 228,
+                                        lineNumber: 234,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0))
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                    lineNumber: 227,
+                                    lineNumber: 233,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -406,19 +415,19 @@ const FarmerPlatform = ()=>{
                                             title: "Business Web Dashboard",
                                             description: "Comprehensive web interface for administrators and managers with full analytics and reporting",
                                             link: prototypeLinks.business_web,
-                                            image: "/src/assets/prototypes/web_dashboard.svg"
+                                            image: "/assets/prototypes/web_dashboard.svg"
                                         },
                                         {
                                             title: "Business Mobile App",
                                             description: "Powerful mobile solution for field officers with real-time data synchronization",
                                             link: prototypeLinks.business_mobile,
-                                            image: "/src/assets/prototypes/business_mobile.svg"
+                                            image: "/assets/prototypes/business_mobile.svg"
                                         },
                                         {
                                             title: "Farmer Mobile App",
                                             description: "Intuitive mobile interface designed for farmers with offline capabilities",
                                             link: prototypeLinks.farmer_mobile,
-                                            image: "/src/assets/prototypes/farmer_mobile.svg"
+                                            image: "/assets/prototypes/farmer_mobile.svg"
                                         }
                                     ].map((prototype, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1",
@@ -433,18 +442,23 @@ const FarmerPlatform = ()=>{
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                 className: "aspect-w-16 aspect-h-9",
-                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                                     src: prototype.image,
                                                                     alt: prototype.title,
-                                                                    className: "w-full h-56 object-cover transition-all duration-300 hover:opacity-90"
+                                                                    width: 1280,
+                                                                    height: 720,
+                                                                    className: "w-full h-56 md:h-72 lg:h-80 transition-all duration-300 hover:opacity-90",
+                                                                    style: {
+                                                                        objectFit: "contain"
+                                                                    }
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                                    lineNumber: 269,
+                                                                    lineNumber: 275,
                                                                     columnNumber: 25
                                                                 }, ("TURBOPACK compile-time value", void 0))
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                                lineNumber: 268,
+                                                                lineNumber: 274,
                                                                 columnNumber: 23
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -460,18 +474,18 @@ const FarmerPlatform = ()=>{
                                                                     children: "Explore Now"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                                    lineNumber: 279,
+                                                                    lineNumber: 288,
                                                                     columnNumber: 25
                                                                 }, ("TURBOPACK compile-time value", void 0))
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                                lineNumber: 275,
+                                                                lineNumber: 284,
                                                                 columnNumber: 23
                                                             }, ("TURBOPACK compile-time value", void 0))
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                        lineNumber: 267,
+                                                        lineNumber: 273,
                                                         columnNumber: 21
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -485,7 +499,7 @@ const FarmerPlatform = ()=>{
                                                                 children: prototype.title
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                                lineNumber: 288,
+                                                                lineNumber: 297,
                                                                 columnNumber: 23
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -496,41 +510,41 @@ const FarmerPlatform = ()=>{
                                                                 children: prototype.description
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                                lineNumber: 294,
+                                                                lineNumber: 303,
                                                                 columnNumber: 23
                                                             }, ("TURBOPACK compile-time value", void 0))
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                        lineNumber: 287,
+                                                        lineNumber: 296,
                                                         columnNumber: 21
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                lineNumber: 261,
+                                                lineNumber: 267,
                                                 columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0))
                                         }, index, false, {
                                             fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                            lineNumber: 257,
+                                            lineNumber: 263,
                                             columnNumber: 17
                                         }, ("TURBOPACK compile-time value", void 0)))
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                    lineNumber: 233,
+                                    lineNumber: 239,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                            lineNumber: 226,
+                            lineNumber: 232,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                    lineNumber: 212,
+                    lineNumber: 218,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -550,12 +564,12 @@ const FarmerPlatform = ()=>{
                                 children: "Challenges We Address"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                lineNumber: 317,
+                                lineNumber: 326,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                            lineNumber: 310,
+                            lineNumber: 319,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -611,12 +625,12 @@ const FarmerPlatform = ()=>{
                                                     children: challenge.icon
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                    lineNumber: 366,
+                                                    lineNumber: 375,
                                                     columnNumber: 21
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                lineNumber: 362,
+                                                lineNumber: 371,
                                                 columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -630,7 +644,7 @@ const FarmerPlatform = ()=>{
                                                         children: challenge.title
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                        lineNumber: 369,
+                                                        lineNumber: 378,
                                                         columnNumber: 21
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -641,35 +655,35 @@ const FarmerPlatform = ()=>{
                                                         children: challenge.description
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                        lineNumber: 375,
+                                                        lineNumber: 384,
                                                         columnNumber: 21
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                lineNumber: 368,
+                                                lineNumber: 377,
                                                 columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, index, true, {
                                         fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                        lineNumber: 353,
+                                        lineNumber: 362,
                                         columnNumber: 17
                                     }, ("TURBOPACK compile-time value", void 0)))
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                lineNumber: 320,
+                                lineNumber: 329,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                            lineNumber: 319,
+                            lineNumber: 328,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                    lineNumber: 306,
+                    lineNumber: 315,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -689,12 +703,12 @@ const FarmerPlatform = ()=>{
                                 children: "Product Demo Video"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                lineNumber: 396,
+                                lineNumber: 405,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                            lineNumber: 389,
+                            lineNumber: 398,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -710,12 +724,12 @@ const FarmerPlatform = ()=>{
                                         allowFullScreen: true
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                        lineNumber: 400,
+                                        lineNumber: 409,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0))
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                    lineNumber: 399,
+                                    lineNumber: 408,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -731,24 +745,24 @@ const FarmerPlatform = ()=>{
                                         children: "Watch on YouTube"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                        lineNumber: 409,
+                                        lineNumber: 418,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0))
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                    lineNumber: 408,
+                                    lineNumber: 417,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                            lineNumber: 398,
+                            lineNumber: 407,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                    lineNumber: 385,
+                    lineNumber: 394,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -768,12 +782,12 @@ const FarmerPlatform = ()=>{
                                 children: "Flexible Solutions for You"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                lineNumber: 433,
+                                lineNumber: 442,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                            lineNumber: 426,
+                            lineNumber: 435,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -802,17 +816,17 @@ const FarmerPlatform = ()=>{
                                                         }
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                        lineNumber: 460,
+                                                        lineNumber: 469,
                                                         columnNumber: 21
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                    lineNumber: 456,
+                                                    lineNumber: 465,
                                                     columnNumber: 19
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                lineNumber: 455,
+                                                lineNumber: 464,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -823,7 +837,7 @@ const FarmerPlatform = ()=>{
                                                 children: "SaaS / License-Based"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                lineNumber: 463,
+                                                lineNumber: 472,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -834,7 +848,7 @@ const FarmerPlatform = ()=>{
                                                 children: "Cloud-hosted solution with regular updates"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                lineNumber: 469,
+                                                lineNumber: 478,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -864,7 +878,7 @@ const FarmerPlatform = ()=>{
                                                                     }
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                                    lineNumber: 492,
+                                                                    lineNumber: 501,
                                                                     columnNumber: 25
                                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -874,23 +888,23 @@ const FarmerPlatform = ()=>{
                                                                     children: feature
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                                    lineNumber: 497,
+                                                                    lineNumber: 506,
                                                                     columnNumber: 25
                                                                 }, ("TURBOPACK compile-time value", void 0))
                                                             ]
                                                         }, i, true, {
                                                             fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                            lineNumber: 491,
+                                                            lineNumber: 500,
                                                             columnNumber: 23
                                                         }, ("TURBOPACK compile-time value", void 0)))
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                    lineNumber: 480,
+                                                    lineNumber: 489,
                                                     columnNumber: 19
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                lineNumber: 476,
+                                                lineNumber: 485,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -904,7 +918,7 @@ const FarmerPlatform = ()=>{
                                                         children: "Pricing"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                        lineNumber: 504,
+                                                        lineNumber: 513,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -920,7 +934,7 @@ const FarmerPlatform = ()=>{
                                                                         children: "Upto 1k beneficiaries:"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                                        lineNumber: 512,
+                                                                        lineNumber: 521,
                                                                         columnNumber: 23
                                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -931,13 +945,13 @@ const FarmerPlatform = ()=>{
                                                                         children: "₹1.5L per year"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                                        lineNumber: 515,
+                                                                        lineNumber: 524,
                                                                         columnNumber: 23
                                                                     }, ("TURBOPACK compile-time value", void 0))
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                                lineNumber: 511,
+                                                                lineNumber: 520,
                                                                 columnNumber: 21
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -950,7 +964,7 @@ const FarmerPlatform = ()=>{
                                                                         children: "1k-10k beneficiaries:"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                                        lineNumber: 523,
+                                                                        lineNumber: 532,
                                                                         columnNumber: 23
                                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -961,13 +975,13 @@ const FarmerPlatform = ()=>{
                                                                         children: "+ ₹150 per beneficiary"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                                        lineNumber: 526,
+                                                                        lineNumber: 535,
                                                                         columnNumber: 23
                                                                     }, ("TURBOPACK compile-time value", void 0))
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                                lineNumber: 522,
+                                                                lineNumber: 531,
                                                                 columnNumber: 21
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -980,7 +994,7 @@ const FarmerPlatform = ()=>{
                                                                         children: "10k-40k beneficiaries:"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                                        lineNumber: 534,
+                                                                        lineNumber: 543,
                                                                         columnNumber: 23
                                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -991,13 +1005,13 @@ const FarmerPlatform = ()=>{
                                                                         children: "+ ₹50 per beneficiary"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                                        lineNumber: 537,
+                                                                        lineNumber: 546,
                                                                         columnNumber: 23
                                                                     }, ("TURBOPACK compile-time value", void 0))
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                                lineNumber: 533,
+                                                                lineNumber: 542,
                                                                 columnNumber: 21
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1010,7 +1024,7 @@ const FarmerPlatform = ()=>{
                                                                         children: "40k+ beneficiaries:"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                                        lineNumber: 545,
+                                                                        lineNumber: 554,
                                                                         columnNumber: 23
                                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1021,13 +1035,13 @@ const FarmerPlatform = ()=>{
                                                                         children: "+ ₹25 per beneficiary"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                                        lineNumber: 548,
+                                                                        lineNumber: 557,
                                                                         columnNumber: 23
                                                                     }, ("TURBOPACK compile-time value", void 0))
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                                lineNumber: 544,
+                                                                lineNumber: 553,
                                                                 columnNumber: 21
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1040,7 +1054,7 @@ const FarmerPlatform = ()=>{
                                                                         children: "Onboarding & Training:"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                                        lineNumber: 556,
+                                                                        lineNumber: 565,
                                                                         columnNumber: 23
                                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1051,13 +1065,13 @@ const FarmerPlatform = ()=>{
                                                                         children: "Free"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                                        lineNumber: 559,
+                                                                        lineNumber: 568,
                                                                         columnNumber: 23
                                                                     }, ("TURBOPACK compile-time value", void 0))
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                                lineNumber: 555,
+                                                                lineNumber: 564,
                                                                 columnNumber: 21
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1066,30 +1080,30 @@ const FarmerPlatform = ()=>{
                                                                     className: "flex justify-between items-center"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                                    lineNumber: 567,
+                                                                    lineNumber: 576,
                                                                     columnNumber: 23
                                                                 }, ("TURBOPACK compile-time value", void 0))
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                                lineNumber: 566,
+                                                                lineNumber: 575,
                                                                 columnNumber: 21
                                                             }, ("TURBOPACK compile-time value", void 0))
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                        lineNumber: 510,
+                                                        lineNumber: 519,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                lineNumber: 503,
+                                                lineNumber: 512,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                        lineNumber: 440,
+                                        lineNumber: 449,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1113,17 +1127,17 @@ const FarmerPlatform = ()=>{
                                                         }
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                        lineNumber: 594,
+                                                        lineNumber: 603,
                                                         columnNumber: 21
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                    lineNumber: 590,
+                                                    lineNumber: 599,
                                                     columnNumber: 19
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                lineNumber: 589,
+                                                lineNumber: 598,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1134,7 +1148,7 @@ const FarmerPlatform = ()=>{
                                                 children: "Self-Hosted (Client Ownership Model)"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                lineNumber: 597,
+                                                lineNumber: 606,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1145,7 +1159,7 @@ const FarmerPlatform = ()=>{
                                                 children: "Full control with dedicated infrastructure"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                lineNumber: 603,
+                                                lineNumber: 612,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1173,7 +1187,7 @@ const FarmerPlatform = ()=>{
                                                                     }
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                                    lineNumber: 624,
+                                                                    lineNumber: 633,
                                                                     columnNumber: 25
                                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1183,23 +1197,23 @@ const FarmerPlatform = ()=>{
                                                                     children: feature
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                                    lineNumber: 629,
+                                                                    lineNumber: 638,
                                                                     columnNumber: 25
                                                                 }, ("TURBOPACK compile-time value", void 0))
                                                             ]
                                                         }, i, true, {
                                                             fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                            lineNumber: 623,
+                                                            lineNumber: 632,
                                                             columnNumber: 23
                                                         }, ("TURBOPACK compile-time value", void 0)))
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                    lineNumber: 614,
+                                                    lineNumber: 623,
                                                     columnNumber: 19
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                lineNumber: 610,
+                                                lineNumber: 619,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1213,7 +1227,7 @@ const FarmerPlatform = ()=>{
                                                         children: "Pricing"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                        lineNumber: 636,
+                                                        lineNumber: 645,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1229,7 +1243,7 @@ const FarmerPlatform = ()=>{
                                                                         children: "One-Time Setup Fee:"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                                        lineNumber: 644,
+                                                                        lineNumber: 653,
                                                                         columnNumber: 23
                                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1240,13 +1254,13 @@ const FarmerPlatform = ()=>{
                                                                         children: "On Request"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                                        lineNumber: 647,
+                                                                        lineNumber: 656,
                                                                         columnNumber: 23
                                                                     }, ("TURBOPACK compile-time value", void 0))
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                                lineNumber: 643,
+                                                                lineNumber: 652,
                                                                 columnNumber: 21
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1259,7 +1273,7 @@ const FarmerPlatform = ()=>{
                                                                         children: "Annual Maintenance (After Year 1):"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                                        lineNumber: 655,
+                                                                        lineNumber: 664,
                                                                         columnNumber: 23
                                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1270,13 +1284,13 @@ const FarmerPlatform = ()=>{
                                                                         children: "On Request"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                                        lineNumber: 658,
+                                                                        lineNumber: 667,
                                                                         columnNumber: 23
                                                                     }, ("TURBOPACK compile-time value", void 0))
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                                lineNumber: 654,
+                                                                lineNumber: 663,
                                                                 columnNumber: 21
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1289,7 +1303,7 @@ const FarmerPlatform = ()=>{
                                                                         children: "Customization Fees:"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                                        lineNumber: 666,
+                                                                        lineNumber: 675,
                                                                         columnNumber: 23
                                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1300,48 +1314,48 @@ const FarmerPlatform = ()=>{
                                                                         children: "On Request"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                                        lineNumber: 669,
+                                                                        lineNumber: 678,
                                                                         columnNumber: 23
                                                                     }, ("TURBOPACK compile-time value", void 0))
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                                lineNumber: 665,
+                                                                lineNumber: 674,
                                                                 columnNumber: 21
                                                             }, ("TURBOPACK compile-time value", void 0))
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                        lineNumber: 642,
+                                                        lineNumber: 651,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                lineNumber: 635,
+                                                lineNumber: 644,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                        lineNumber: 574,
+                                        lineNumber: 583,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                lineNumber: 438,
+                                lineNumber: 447,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                            lineNumber: 437,
+                            lineNumber: 446,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                    lineNumber: 422,
+                    lineNumber: 431,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1361,12 +1375,12 @@ const FarmerPlatform = ()=>{
                                 children: "Post-Launch Support"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                lineNumber: 695,
+                                lineNumber: 704,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                            lineNumber: 688,
+                            lineNumber: 697,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1380,7 +1394,7 @@ const FarmerPlatform = ()=>{
                                     children: "We ensure your success with dedicated support and continuous improvements."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                    lineNumber: 698,
+                                    lineNumber: 707,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1416,12 +1430,12 @@ const FarmerPlatform = ()=>{
                                                         }
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                        lineNumber: 729,
+                                                        lineNumber: 738,
                                                         columnNumber: 21
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                    lineNumber: 728,
+                                                    lineNumber: 737,
                                                     columnNumber: 19
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1432,7 +1446,7 @@ const FarmerPlatform = ()=>{
                                                     children: support.title
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                    lineNumber: 734,
+                                                    lineNumber: 743,
                                                     columnNumber: 19
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1443,30 +1457,30 @@ const FarmerPlatform = ()=>{
                                                     children: support.description
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                                    lineNumber: 740,
+                                                    lineNumber: 749,
                                                     columnNumber: 19
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
                                         }, index, true, {
                                             fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                            lineNumber: 723,
+                                            lineNumber: 732,
                                             columnNumber: 17
                                         }, ("TURBOPACK compile-time value", void 0)))
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                    lineNumber: 702,
+                                    lineNumber: 711,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                            lineNumber: 697,
+                            lineNumber: 706,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                    lineNumber: 684,
+                    lineNumber: 693,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1483,7 +1497,7 @@ const FarmerPlatform = ()=>{
                             children: "Ready to Transform Your Agricultural Operations?"
                         }, void 0, false, {
                             fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                            lineNumber: 757,
+                            lineNumber: 766,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1494,7 +1508,7 @@ const FarmerPlatform = ()=>{
                             children: "Schedule a demo today and discover how our Farmer Platform can help your organization make a bigger impact."
                         }, void 0, false, {
                             fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                            lineNumber: 763,
+                            lineNumber: 772,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1518,7 +1532,7 @@ const FarmerPlatform = ()=>{
                                     children: "Request Demo"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                    lineNumber: 771,
+                                    lineNumber: 780,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].a, {
@@ -1559,30 +1573,30 @@ const FarmerPlatform = ()=>{
                                     children: "View all Prototypes"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                                    lineNumber: 789,
+                                    lineNumber: 798,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                            lineNumber: 770,
+                            lineNumber: 779,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-                    lineNumber: 753,
+                    lineNumber: 762,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-            lineNumber: 61,
+            lineNumber: 62,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {
         fileName: "[project]/src/components/Products/FarmerPlatform.jsx",
-        lineNumber: 56,
+        lineNumber: 57,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };

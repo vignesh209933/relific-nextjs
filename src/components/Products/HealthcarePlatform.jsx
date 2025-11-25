@@ -39,8 +39,8 @@ const HealthcarePlatform = () => {
             Home
           </Link>{" "}
           &gt;{" "}
-          <Link href="/allproducts" className="hover:underline">
-            Products
+          <Link href="/other_solutions" className="hover:underline">
+            Other Solutions
           </Link>{" "}
           &gt; <span>Healthcare Platform</span>
         </div>
