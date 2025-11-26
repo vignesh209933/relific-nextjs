@@ -1,3 +1,0 @@
-module.exports=[36642,a=>{"use strict";var b=a.i(87924),c=a.i(46271),d=a.i(50944),e=a.i(72131);function f({children:a}){let f=(0,d.usePathname)();return(0,e.useEffect)(()=>{window.scrollTo({top:0,behavior:"smooth"})},[f]),(0,b.jsx)(c.motion.div,{initial:{opacity:0,y:20},animate:{opacity:1,y:0},exit:{opacity:0,y:-20},transition:{duration:.3,ease:"easeInOut"},children:a},f)}a.s(["default",()=>f])}];
-
-//# sourceMappingURL=app_template_tsx_76229a7d._.js.map
